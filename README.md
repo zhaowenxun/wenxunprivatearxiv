@@ -1,41 +1,11 @@
 <p align="center">
-<h1 align="center"> <img src="./imgs/icon/ai.png" width="30" />MyArxiv</h1>
+<h1 align="center"> wenxun-Arxiv-追踪</h1>
 </p>
 
-
-<p align="center">
-  	<a href="https://img.shields.io/badge/version-v0.1.0-blue">
-      <img alt="version" src="https://img.shields.io/badge/version-v0.1.0-blue?color=FF8000?color=009922" />
-    </a>
-  <a >
-       <img alt="Status-building" src="https://img.shields.io/badge/Status-building-blue" />
-  	</a>
-  <a >
-       <img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-red" />
-  	</a>
-   	<a href="https://github.com/MLNLP-World/MyArxiv/stargazers">
-       <img alt="stars" src="https://img.shields.io/github/stars/MLNLP-World/MyArxiv" />
-  	</a>
-  	<a href="https://github.com/MLNLP-World/MyArxiv/network/members">
-       <img alt="FORK" src="https://img.shields.io/github/forks/MLNLP-World/MyArxiv?color=FF8000" />
-  	</a>
-    <a href="https://github.com/MLNLP-World/MyArxiv/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/MLNLP-World/MyArxiv?color=0088ff"/>
-    </a>
-    <br />
-</p>
 <div align="center">
 <p align="center">
-  <a href="#项目动机">项目动机</a>/
-  <a href="#项目简介">项目简介</a>/
-  <a href="#项目预览">项目预览</a>/
   <a href="#使用说明">使用说明</a>/
-  <a href="#快速上手指南">快速上手指南</a>/
-  <a href="#定制化指南">定制化指南</a>/
   <a href="#参考资源">参考资源</a>/
-  <a href="#致谢">致谢</a>/
-  <a href="#组织者">组织者</a>/
-  <a href="#贡献者">贡献者</a>
 </p>
 </div>
 
@@ -44,104 +14,6 @@
 
 
 ---
-
-## <img src="./imgs/icon/motivation.png" width="25" />项目动机
-
-`Arxiv`作为当前最受欢迎的学术论文预印的网站之一，每天有大量的最新学术论文在此网站发布。许多一线研究者，在这样信息爆炸的时代，为了第一时间有效地关注到与自己研究“相关”的学术论文，每天都需要耗费较多时间进行检索和审阅过滤掉“无关”的学术论文，这无疑为大家的科研带来了较大的负担。为了帮助大家高效地、自由地阅览Arxiv最新学术论文，本项目为大家提供了`Arxiv`个性化定制化模版，实现对特定领域的相关内容、作者与学术会议的有效跟进，将`Arxiv`定制化为`MyArxiv`。
-
-
-本项目所用徽章来自互联网，如侵犯了您的图片版权请联系我们删除，谢谢。
-
-## <img src="./imgs/icon/intro.png" width="25" />项目简介
-
-`MyArxiv`项目基于[`Arxiv官方API`](https://arxiv.org/help/api)与[`Github Actions`](https://docs.github.com/en/actions)相关服务，为大家了提供了`Arxiv`的定制化服务，使用者可以通过配置相关文件，从`Arxiv`每日发布的最新研究成果中，实现个性化地、轻松地阅览属于自己的`Arxiv`网站，其功能如下：
-
-**基本功能**：
-
-- 跟踪指定领域的最新成果
-- 缓存指定时段的文章信息
-
-**特色功能**：
-
-- 快速聚焦到文章标题中的指定**关键字**
-- 方便注意到文章作者中的指定**学者**
-- 及时了解到相关知名**会议、期刊**的学术文章
-
-## <img src="./imgs/icon/resource.png" width="25" />项目预览
-
-使用者可以访问[https://mlnlp-world.github.io/MyArxiv/](https://mlnlp-world.github.io/MyArxiv/)进行对当前项目进行预览，以便更好地熟悉和使用当前项目。
-
-- `MyArxiv`总页面概览：
-
-<img src="./imgs/readme/preview1.png" style="zoom:40%;" />
-
-​	其中包含了指定领域的多天的文章最新更新情况
-
-- 进一步查看领域中更新的文章列表：
-
-​	<img src="./imgs/readme/preview2.png" style="zoom:40%;" />
-
-​	每一个条目中有特定类型的前缀标识（e.g.  `☆` 或 `★`标识是否有高亮的作者）、包含高亮的文章标题（e.g. `Dialogue`）以及相应的会议信息（e.g. `EMNLP 2022`）。
-
-- 更加细化地对感兴趣的文章内容进行查看：
-
-<img src="./imgs/readme/preview3.png" style="zoom:40%;" />
-
-​	其中有包含高亮详细作者列表（e.g. `Qun Liu`）、摘要以及对应的`comment`（e.g. `EMNLP 2022, Long paper, Main conference`）。
-
-## <img src="./imgs/icon/folders.png" width="25" />使用说明
-
-- 单击`标题`展开并仔细查看其摘要。
-- 单击`摘要`跳转到对应的`Arxiv`文章。
-- 指定关键字、指定学者和会议/期刊信息的高亮显示。
-- 通过文章条目前缀标识区分论文是新提交的还是更新的`♻`。
-- 通过文章条目前缀标识区分论文是否由高亮的作者撰写的`☆` 或`★`。
-- 使用`Tab`键展开/折叠所有文章。
-- 实现了对于Latex公式的渲染。
-- 支持深色/浅色模式。
-
-## <img src="./imgs/icon/catalogue.png" width="25" />快速上手指南
-
-使用MyArxiv实现个人定制的Arxiv，使用默认设置快速上手，步骤如下：
-
-<details open="open">
-  <summary>Get Start</summary>
-  <ul>
-       <li><a href="#create-repo"> ➤ 1. 建立仓库</a></li>
-       <li><a href="#modify-cachr-url"> ➤ 2. 修改cachr url</a></li>
-       <li><a href="#github-pages-start"> ➤ 3. Github pages设置</a></li>
-  </ul>
-</details>
-
-<h4 id="create-repo">1. 建立仓库</h4>
-
-当前MyArxiv仓库为模版仓库，当我们建立属于自己的MyArxiv时，需要从当前模版新建仓库到自己的Github账号下。
-
-<img src="./imgs/tutorial/1.1.1.png" style="zoom:50%;" />
-
-假设仓库地址为`github.com/username/reponame`，便于后续说明。
-
-<img src="./imgs/tutorial/1.1.2.png" style="zoom:40%;" />
-
-<h4 id="modify-cachr-url">2. 修改cachr url</h4>
-
-修改`config.toml`中文件中的`cache_url`设置（MyArxiv数据缓存地址，该地址设置与你托管当前项目的网站地址相关），将其对应的Github账户，从`MLNLP-World`修改为自己当前的账户，如下图所示：
-
-<img src="./imgs/tutorial/1.2.1.png" style="zoom:50%;" />
-
-<h4 id="github-pages-start">3. Github pages设置</h4>
-
-进入当前Repo对应的Settings后，进入Pages页面，设置`Branch`为`gh-pages`分支。
-
-<img src="./imgs/tutorial/1.3.1.png" style="zoom:40%;" />
-
-使用至此，你已经基于`MyArxiv`的默认配置实现了快速上手，直接访问Github Pages对应的网页`username.github.io/MyArxiv`，可以查看属于自己的`MyArxiv`:
-
-<img src="./imgs/tutorial/1.3.2.png" style="zoom:40%;" />
-
-## <img src="./imgs/icon/cog.png" width="25" />定制化指南
-
-MyArxiv是高度可定制化的，使用者可以根据自己的实际需求进行更改，实现个性化定制，如下内容对于可定制化的部分进行说明。
 
 <details open="open">
   <summary>Build Steps</summary>
@@ -323,6 +195,8 @@ workflow设置位于文件`./.github/workflows/update-feed.yml`中：
 到这里，就实现了`MyArxiv`的定制化。**Enjoy *YourArxiv*  !**
 
 ## <img src="./imgs/icon/link.png" width="25" />参考资源
+Fork from - [MyArxiv](https://github.com/MLNLP-World/MyArxiv)
+
 该项目部分参考如下项目：
 - [ArxivFeed Template](https://github.com/NotCraft/ArxivDaily)
 - Powered By [ArxivFeed](https://github.com/NotCraft/ArxivFeed)
@@ -332,22 +206,3 @@ workflow设置位于文件`./.github/workflows/update-feed.yml`中：
 - [Osmosfeed](https://github.com/osmoscraft/osmosfeed)
 - [AlongWY Version](https://github.com/AlongWY/ArxivDaily)
 - [LooperXX Osmosfeed Version](https://github.com/LooperXX/ArxivDaily-Old)
-
-## <img src="./imgs/icon/organizer.png" width="25" />组织者
-感谢以下同学对本项目的组织
-
-<a href="https://github.com/AlongWY">  <img src="./imgs/profile/yunlong_feng.png"  width="80" /></a>
-<a href="https://github.com/LooperXX">  <img src="./imgs/profile/xiao_xu.jpg"  width="80" /></a>
-<a href="https://github.com/YudiZh">  <img src="./imgs/profile/yudi_zhang.jpg"  width="80" /></a>
-<a href="https://github.com/yizhen20133868">  <img src="./imgs/profile/libo_qin.jpg"  width="80" /></a>
-
-
-
-## <img src="./imgs/icon/heart.png" width="25" />贡献者
-感谢以下同学对本项目的支持与贡献
-
-<a href="https://github.com/AlongWY">  <img src="./imgs/profile/yunlong_feng.png"  width="80" /></a>
-<a href="https://github.com/LooperXX">  <img src="./imgs/profile/xiao_xu.jpg"  width="80" /></a>
-<a href="https://github.com/YudiZh">  <img src="./imgs/profile/yudi_zhang.jpg"  width="80" /></a>
-<a href="https://github.com/entslscheia">  <img src="./imgs/profile/yu_gu.png"  width="80" /></a>
-

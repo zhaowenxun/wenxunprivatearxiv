@@ -1,15 +1,15 @@
 site_title = "Wenxun-Arxiv"
 limit_days = 7
-cache_url = "https://github.com/zhaowenxun/WenxunPrivateArxiv/blob/gh-pages/cache.json"
+cache_url = "https://github.com/zhaowenxun/WenxunPrivateArxiv/cache.json"
 
 [[sources]]
-limit = 150
-category = "cs.CV"
+limit = 50
+category = "cs.CV+AND+ti:nerf"
 title = "nerf"
 
 [[sources]]
-limit = 150
-category = "cs.CV"
+limit = 50
+category = "cs.CV+AND+ti:hdr"
 title = "hdr"
 
 
