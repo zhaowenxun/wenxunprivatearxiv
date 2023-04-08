@@ -1,17 +1,31 @@
 site_title = "Wenxun-Arxiv"
-limit_days = 7
+limit_days = 30
 cache_url = "https://github.com/zhaowenxun/WenxunPrivateArxiv/blob/gh-pages/cache.json"
 
 [[sources]]
 limit = 50
-category = "cs.CV+AND+ti:nerf"
-title = "nerf"
+category = "cs.CV+AND+abs:nerf+OR+ti:nerf"
+title = "NeRF"
 
 [[sources]]
 limit = 50
-category = "cs.CV+AND+ti:hdr"
-title = "hdr"
+category = "cs.CV+AND+abs:deblur+OR+ti:deblur"
+title = "Deblur"
 
+[[sources]]
+limit = 50
+category = "cs.CV+AND+abs:hdr+OR+ti:hdr"
+title = "HDR"
+
+[[sources]]
+limit = 50
+category = "cs.CV+AND+abs:deblur+AND+abs:nerf"
+title = "Deblur&NeRF"
+
+[[sources]]
+limit = 50
+category = "cs.CV+AND+abs:hdr+OR+AND+abs:nerf"
+title = "HDR&NeRF"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
