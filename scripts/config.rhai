@@ -1,8 +1,8 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["NeRF", "GPT", "Transformer","CLIP","Colmap","render"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
+let titles_model = ["Neural Fields","NeRF", "GPT", "Transformer","Scene Synthesis","rendering"];
+let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised","CLIP","Colmap","diffusion"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = [];
+let authors_array = [""];
 
 let conferences = [
     // AI

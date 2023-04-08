@@ -20,14 +20,15 @@ title = "HDR"
 [[sources]]
 limit = 50
 category = "cs.CV+AND+abs:deblur+AND+abs:nerf"
-title = "Deblur&NeRF"
+title = "Deblur-NeRF"
 
 [[sources]]
 limit = 50
 category = "cs.CV+AND+abs:hdr+OR+AND+abs:nerf"
-title = "HDR&NeRF"
+title = "HDR-NeRF"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
 highlight_author = "scripts/highlight_author.rhai"
 highlight_conference = "scripts/highlight_conference.rhai"
+highlight_summary="scripts/highlight_summary.rhai"
