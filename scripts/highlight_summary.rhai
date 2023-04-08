@@ -1,6 +1,6 @@
 import "scripts/config" as cfg;
 
-let summary = params[2];
+let summary = params[0];
 
 
 let title_rg = RegexCaseInsensitive(`(?P<key>(${cfg::title_rg}))`);
