@@ -36,5 +36,5 @@ let start = authors_array.shift();
 let authors_rg = authors_array.reduce(|sum, v| sum + "|" + v, start);
 
 export title_rg;
-// export authors_rg;
+export authors_rg;
 export conferences_rg;
