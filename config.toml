@@ -4,13 +4,11 @@ cache_url = "https://github.com/zhaowenxun/WenxunPrivateArxiv/blob/gh-pages/cach
 
 [[sources]]
 limit = 150
-category = "cs.CV"
 title = "nerf"
 
 [[sources]]
 limit = 150
-category = "cs.GR"
-title = "nerf"
+title = "hdr"
 
 
 [scripts]
