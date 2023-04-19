@@ -9,23 +9,18 @@ title = "NeRF"
 
 [[sources]]
 limit = 50
-category = "cs.CV+AND+abs:deblur+OR+ti:deblur"
-title = "Deblur"
-
-[[sources]]
-limit = 50
 category = "cs.CV+AND+abs:hdr+OR+ti:hdr"
 title = "HDR"
 
 [[sources]]
 limit = 50
-category = "cs.CV+AND+abs:deblur+AND+abs:nerf"
-title = "Deblur-NeRF"
+category = "cs.CV+AND+abs:iqa+OR+ti:image+quality"
+title = "IQA"
 
 [[sources]]
 limit = 50
-category = "cs.CV+AND+abs:hdr+OR+AND+abs:nerf"
-title = "HDR-NeRF"
+category = "cs.CV+AND+abs:deblur+OR+ti:deblur"
+title = "Deblur"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"

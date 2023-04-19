@@ -1,9 +1,15 @@
+// 标题和内容加粗高亮的关键词：
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["Neural Fields","NeRF", "GPT", "Transformer","Scene Synthesis","rendering"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised","CLIP","Colmap","diffusion"];
+let titles_model = ["Neural Fields","NeRF", "GPT", "Transformer"
+,"Scene Synthesis",
+"rendering","MAE","MLP"];
+let titles_method = ["Pre-train", "Pretrain", "Prompt", 
+"Self-Supervised","CLIP","Colmap","diffusion"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = [""];
+//关注作者
+let authors_array = ["qingsen yan","yanning zhang","yu zhu","qing wang","mildenhall"];
 
+// 文章类型
 let conferences = [
     // AI
     "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",

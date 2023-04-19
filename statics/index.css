@@ -1,6 +1,6 @@
 :root {
     /* Palette: Nord (https://www.nordtheme.com)*/
-    --nord00: #202020;
+    --nord00: #2e3440;
     --nord01: #3b4252;
     --nord02: #434c5e;
     --nord03: #4c566a;
@@ -8,15 +8,14 @@
     --nord05: #e5e9f0;
     --nord06: #eceff4;
     --nord07: #8fbcbb;
-    --nord08: #673bb7;
-    --nord09: #ae79d5;
+    --nord08: #88c0d0;
+    --nord09: #81a1c1;
     --nord0A: #5e81ac;
-    --nord0B: #2c155d;
+    --nord0B: #bf616a;
     --nord0C: #d08770;
     --nord0D: #ebcb8b;
-    --nord0E: #673bb7;
+    --nord0E: #a3be8c;
     --nord0F: #b48ead;
-
 
     /* Typograph */
     --font-family-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
