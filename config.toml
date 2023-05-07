@@ -1,6 +1,6 @@
 site_title = "Wenxun-Arxiv"
 limit_days = 30
-cache_url = "https://github.com/zhaowenxun/WenxunPrivateArxiv/blob/gh-pages/cache.json"
+cache_url = "https://github.com/adaxun/WenxunPrivateArxiv/blob/gh-pages/cache.json"
 
 [[sources]]
 limit = 50
