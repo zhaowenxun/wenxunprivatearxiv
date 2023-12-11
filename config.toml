@@ -4,6 +4,16 @@ cache_url = "https://github.com/adaxun/WenxunPrivateArxiv/blob/gh-pages/cache.js
 
 [[sources]]
 limit = 50
+category = "cs.CV+AND+abs:nerf+OR+ti:sdf"
+title = "SDF"
+
+[[sources]]
+limit = 50
+category = "cs.CV+AND+abs:nerf+OR+ti:mesh"
+title = "Mesh"
+
+[[sources]]
+limit = 50
 category = "cs.CV+AND+abs:nerf+OR+ti:nerf"
 title = "NeRF"
 
